@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>stringImageName</key>
+		<string>developer</string>
+		<key>stringDescription</key>
+		<string>Former BEPiD Student, Industrial and Systems Undergraduate Student, and technology enthusiast. My interests are Entrepreneurship, Mobile Development, Modeling and Development of Systems, and Learning foreign languages. I also like to watch TED talks,  go to the gym, and hang out with my friends on the weekends
+
+rios.p.felipe@gmail.com
++55 51 99713185</string>
+		<key>stringTopic</key>
+		<string>Felipe Polidori Rios</string>
+		<key>stringSubtopic</key>
+		<string>iOS developer</string>
+		<key>latitude</key>
+		<real>-30.000145</real>
+		<key>longitude</key>
+		<real>-51.150759</real>
+		<key>dateEnd</key>
+		<string></string>
+		<key>dateBegin</key>
+		<date>1992-07-19T19:55:32Z</date>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>stringImageName</key>
+		<string>bomConselho</string>
+		<key>stringDescription</key>
+		<string>Elementary school.
+It is among the top 20 best elementary schools in the city. Activities: singing with the class in the church, choir, art, and cultural activities (visiting museums and parks)</string>
+		<key>stringTopic</key>
+		<string>Education</string>
+		<key>stringSubtopic</key>
+		<string>Bom Conselho Elementary School</string>
+		<key>latitude</key>
+		<real>-30.027179</real>
+		<key>longitude</key>
+		<real>-51.209158</real>
+		<key>dateEnd</key>
+		<date>2007-04-24T19:57:46Z</date>
+		<key>dateBegin</key>
+		<date>1997-07-19T19:55:32Z</date>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>stringImageName</key>
+		<string>rosario</string>
+		<key>stringDescription</key>
+		<string>The third best high school in the city. Activities: learning humanities and hard sciences, preparation for the SAT, and sports practice. 
+Participated in the Rosario Olimpic Games in the swimming and volleyball sections. We got the first place!</string>
+		<key>stringTopic</key>
+		<string>Education</string>
+		<key>stringSubtopic</key>
+		<string>Marista Rosário High School</string>
+		<key>latitude</key>
+		<real>-30.030268</real>
+		<key>longitude</key>
+		<real>-51.218703</real>
+		<key>dateEnd</key>
+		<date>2009-12-24T18:57:46Z</date>
+		<key>dateBegin</key>
+		<date>2007-12-19T18:55:32Z</date>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>stringImageName</key>
+		<string>pucrs</string>
+		<key>stringDescription</key>
+		<string>Pontifícia Universidade Católica do Rio Grande do Sul University: the best private university in Brazil. 
+Major in Industrial and Systems Engineering. Studied opitimization of processess, optimization of transportation routes, quality management, and entrepreneurship </string>
+		<key>stringTopic</key>
+		<string>Education</string>
+		<key>stringSubtopic</key>
+		<string>PUCRS</string>
+		<key>latitude</key>
+		<real>-30.060249</real>
+		<key>longitude</key>
+		<real>-51.175564</real>
+		<key>dateEnd</key>
+		<string></string>
+		<key>dateBegin</key>
+		<date>2010-02-19T18:55:32Z</date>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>stringImageName</key>
+		<string>auburn</string>
+		<key>stringDescription</key>
+		<string>Awarded Brazil Scientific Mobility Program to study abroad for one year. Lived in Auburn, AL. 
+Studied, JAVA, Matlab, English, Stochastic Operations, and modeling and analysis of systems through simulation</string>
+		<key>stringTopic</key>
+		<string>Education</string>
+		<key>stringSubtopic</key>
+		<string>Auburn University</string>
+		<key>latitude</key>
+		<real>32.593601</real>
+		<key>longitude</key>
+		<real>-85.495187</real>
+		<key>dateEnd</key>
+		<date>2013-06-24T19:57:46Z</date>
+		<key>dateBegin</key>
+		<date>2012-08-19T19:55:32Z</date>
+	</dict>
+	<key>5</key>
+	<dict>
+		<key>stringImageName</key>
+		<string>stanford</string>
+		<key>stringDescription</key>
+		<string>One of the best experiences of my life! Lived THE Silicon Valey, in Stanford. Studied Decision Making Process with B. Robinson and Technology Entrepreneurship in Thomas Kosnik&apos;s class, with lectures from venture capitalists experts like Guy Kawasaki. GPA:4.0</string>
+		<key>stringTopic</key>
+		<string>Education</string>
+		<key>stringSubtopic</key>
+		<string>Stanford University</string>
+		<key>latitude</key>
+		<real>37.42767</real>
+		<key>longitude</key>
+		<real>-122.16974</real>
+		<key>dateEnd</key>
+		<date>2013-08-24T19:57:46Z</date>
+		<key>dateBegin</key>
+		<date>2013-06-24T19:57:46Z</date>
+	</dict>
+	<key>6</key>
+	<dict>
+		<key>stringImageName</key>
+		<string>walmart</string>
+		<key>stringDescription</key>
+		<string>Worked in the aggregated services management area developing and presenting the key performance indicators of the departaments. Analized the time-in-system of the invoice payments inside the shared services center. Translated documents and developed a system to verify the compliance of automated reports</string>
+		<key>stringTopic</key>
+		<string>Professional Experience</string>
+		<key>stringSubtopic</key>
+		<string>Walmart</string>
+		<key>latitude</key>
+		<real>-29.996533</real>
+		<key>longitude</key>
+		<real>-51.140816</real>
+		<key>dateEnd</key>
+		<date>2012-08-24T19:57:46Z</date>
+		<key>dateBegin</key>
+		<date>2011-09-24T19:57:46Z</date>
+	</dict>
+	<key>7</key>
+	<dict>
+		<key>stringImageName</key>
+		<string>bepid</string>
+		<key>stringDescription</key>
+		<string>Participated in the first edition of Brazil Educational Program for iOS Development. An innovative program to teach students iOS development. Use of CBL (Challenge Based Learning) that creates a collaborative environment to solve challenges. Use of Scrum Agile Project Management approach to coordinate the projects </string>
+		<key>stringTopic</key>
+		<string>Professional Experience</string>
+		<key>stringSubtopic</key>
+		<string>BEPiD</string>
+		<key>latitude</key>
+		<real>-30.060454</real>
+		<key>longitude</key>
+		<real>-51.170957</real>
+		<key>dateEnd</key>
+		<date>2013-11-24T18:57:46Z</date>
+		<key>dateBegin</key>
+		<date>2014-11-24T18:57:46Z</date>
+	</dict>
+	<key>8</key>
+	<dict>
+		<key>stringImageName</key>
+		<string>omega</string>
+		<key>stringDescription</key>
+		<string>Founded Omega Code,
+a mobile solutions company. Everything we do is thinking in the user needs and user experience.
+Ou passion is to work on meaninful projects that can change people&apos;s lives. </string>
+		<key>stringTopic</key>
+		<string>Professional Experience</string>
+		<key>stringSubtopic</key>
+		<string>Omega Code</string>
+		<key>latitude</key>
+		<real>-30.054896</real>
+		<key>longitude</key>
+		<real>-51.163647</real>
+		<key>dateEnd</key>
+		<string></string>
+		<key>dateBegin</key>
+		<date>2014-11-24T18:57:46Z</date>
+	</dict>
+	<key>9</key>
+	<dict>
+		<key>stringImageName</key>
+		<string>meuPorquinho</string>
+		<key>stringDescription</key>
+		<string>App iOS to manage personal finances. Features: pie chart, password lock, reminders, and categorization of transactions. 
+It has been among the top 10 free apps in the finance category.
+Available in English, Spanish and Portuguese.
+More than 17.000 downloads</string>
+		<key>stringTopic</key>
+		<string>Projects</string>
+		<key>stringSubtopic</key>
+		<string>Meu Porquinho</string>
+		<key>latitude</key>
+		<real>-30.054896</real>
+		<key>longitude</key>
+		<real>-51.163647</real>
+		<key>dateEnd</key>
+		<date>2014-05-25T00:45:50Z</date>
+		<key>dateBegin</key>
+		<date>2014-02-24T19:57:46Z</date>
+	</dict>
+	<key>10</key>
+	<dict>
+		<key>stringImageName</key>
+		<string>mercurial</string>
+		<key>stringDescription</key>
+		<string>Corporate iOS app that confirms attendance through SMS and email of client appointments scheduled with professionals.
+Features appointment agenda and charts to analyze business growth</string>
+		<key>stringTopic</key>
+		<string>Projects</string>
+		<key>stringSubtopic</key>
+		<string>Mercurial</string>
+		<key>latitude</key>
+		<real>-30.054896</real>
+		<key>longitude</key>
+		<real>-51.163647</real>
+		<key>dateEnd</key>
+		<date>2015-01-24T23:45:50Z</date>
+		<key>dateBegin</key>
+		<date>2014-05-24T19:57:46Z</date>
+	</dict>
+	<key>11</key>
+	<dict>
+		<key>stringImageName</key>
+		<string>cupertino</string>
+		<key>stringDescription</key>
+		<string>Languages: English, Spanish, and Portuguese. Experience with programming languages such as Objective C, JAVA, matlab, and Python (+Django &amp; Django REST), SQL, HTML, CSS, and JavaScript. Experience with Adobe Photoshop &amp; After Effects, design patterns, iBeacons, modeling relational databases, and Agile Software Development</string>
+		<key>stringTopic</key>
+		<string>Technical Skills</string>
+		<key>stringSubtopic</key>
+		<string>Humanities &amp; Sciences</string>
+		<key>latitude</key>
+		<real>37.332333</real>
+		<key>longitude</key>
+		<real>-122.030773</real>
+		<key>dateEnd</key>
+		<string></string>
+		<key>dateBegin</key>
+		<date>1992-07-19T19:57:46Z</date>
+	</dict>
+</dict>
+</plist>

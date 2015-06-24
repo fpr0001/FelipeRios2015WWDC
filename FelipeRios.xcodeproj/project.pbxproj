@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE4ED7001AEA124B009429F3 /* FPRAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4ED6FF1AEA124B009429F3 /* FPRAnnotation.m */; };
+		AE4ED7041AEA1594009429F3 /* FPRIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4ED7011AEA1594009429F3 /* FPRIndicator.swift */; };
+		AE4ED7051AEA1594009429F3 /* FPRPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4ED7021AEA1594009429F3 /* FPRPictureViewController.swift */; };
+		AE4ED7061AEA1594009429F3 /* FPRTiltView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4ED7031AEA1594009429F3 /* FPRTiltView.swift */; };
+		AEE2222E1AE9984A00136374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE2222D1AE9984A00136374 /* AppDelegate.swift */; };
+		AEE222301AE9984A00136374 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE2222F1AE9984A00136374 /* ViewController.swift */; };
+		AEE222331AE9984A00136374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE222311AE9984A00136374 /* Main.storyboard */; };
+		AEE222351AE9984A00136374 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE222341AE9984A00136374 /* Images.xcassets */; };
+		AEE222381AE9984A00136374 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEE222361AE9984A00136374 /* LaunchScreen.xib */; };
+		AEE222441AE9984A00136374 /* FelipeRiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE222431AE9984A00136374 /* FelipeRiosTests.swift */; };
+		AEE222501AE99E4300136374 /* FPRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE2224F1AE99E4300136374 /* FPRMainViewController.m */; };
+		AEE222531AE9AEFE00136374 /* UIView+FPRView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE222521AE9AEFE00136374 /* UIView+FPRView.m */; };
+		AEE222561AE9B20B00136374 /* FPRGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE222551AE9B20B00136374 /* FPRGradientView.m */; };
+		AEE222591AE9B56800136374 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE222581AE9B56800136374 /* MapKit.framework */; };
+		AEE2225C1AE9B5A500136374 /* FPRImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE2225B1AE9B5A500136374 /* FPRImageView.m */; };
+		AEE222601AE9BCDC00136374 /* FPRContent.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE2225F1AE9BCDC00136374 /* FPRContent.m */; };
+		AEE222641AE9C01000136374 /* FPRUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE222631AE9C01000136374 /* FPRUtils.m */; };
+		AEE2226B1AE9C54F00136374 /* FPRViewScrollPaged.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE2226A1AE9C54F00136374 /* FPRViewScrollPaged.m */; };
+		AEE2226E1AE9C59100136374 /* FPRXibScrollPaged.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEE2226D1AE9C59100136374 /* FPRXibScrollPaged.xib */; };
+		AEF591761AEAD55A00D7C70A /* FPRData.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEF591751AEAD55A00D7C70A /* FPRData.plist */; };
+		AEF591791AEAD97700D7C70A /* FPRData.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF591781AEAD97700D7C70A /* FPRData.m */; };
+		AEF5917C1AEB541500D7C70A /* mercurialMovie.mov in Resources */ = {isa = PBXBuildFile; fileRef = AEF5917B1AEB541500D7C70A /* mercurialMovie.mov */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEE2223E1AE9984A00136374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE222201AE9984A00136374 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEE222271AE9984A00136374;
+			remoteInfo = FelipeRios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE4ED6FE1AEA124B009429F3 /* FPRAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPRAnnotation.h; sourceTree = "<group>"; };
+		AE4ED6FF1AEA124B009429F3 /* FPRAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPRAnnotation.m; sourceTree = "<group>"; };
+		AE4ED7011AEA1594009429F3 /* FPRIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPRIndicator.swift; sourceTree = "<group>"; };
+		AE4ED7021AEA1594009429F3 /* FPRPictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPRPictureViewController.swift; sourceTree = "<group>"; };
+		AE4ED7031AEA1594009429F3 /* FPRTiltView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPRTiltView.swift; sourceTree = "<group>"; };
+		AEE222281AE9984A00136374 /* FelipeRios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FelipeRios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE2222C1AE9984A00136374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEE2222D1AE9984A00136374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEE2222F1AE9984A00136374 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEE222321AE9984A00136374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEE222341AE9984A00136374 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AEE222371AE9984A00136374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AEE2223D1AE9984A00136374 /* FelipeRiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FelipeRiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE222421AE9984A00136374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEE222431AE9984A00136374 /* FelipeRiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FelipeRiosTests.swift; sourceTree = "<group>"; };
+		AEE2224D1AE99E4300136374 /* FelipeRios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FelipeRios-Bridging-Header.h"; sourceTree = "<group>"; };
+		AEE2224E1AE99E4300136374 /* FPRMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPRMainViewController.h; sourceTree = "<group>"; };
+		AEE2224F1AE99E4300136374 /* FPRMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPRMainViewController.m; sourceTree = "<group>"; };
+		AEE222511AE9AEFE00136374 /* UIView+FPRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FPRView.h"; sourceTree = "<group>"; };
+		AEE222521AE9AEFE00136374 /* UIView+FPRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FPRView.m"; sourceTree = "<group>"; };
+		AEE222541AE9B20B00136374 /* FPRGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPRGradientView.h; sourceTree = "<group>"; };
+		AEE222551AE9B20B00136374 /* FPRGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPRGradientView.m; sourceTree = "<group>"; };
+		AEE222581AE9B56800136374 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AEE2225A1AE9B5A500136374 /* FPRImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPRImageView.h; sourceTree = "<group>"; };
+		AEE2225B1AE9B5A500136374 /* FPRImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPRImageView.m; sourceTree = "<group>"; };
+		AEE2225E1AE9BCDC00136374 /* FPRContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPRContent.h; sourceTree = "<group>"; };
+		AEE2225F1AE9BCDC00136374 /* FPRContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPRContent.m; sourceTree = "<group>"; };
+		AEE222621AE9C00F00136374 /* FPRUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPRUtils.h; sourceTree = "<group>"; };
+		AEE222631AE9C01000136374 /* FPRUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPRUtils.m; sourceTree = "<group>"; };
+		AEE222691AE9C54F00136374 /* FPRViewScrollPaged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPRViewScrollPaged.h; sourceTree = "<group>"; };
+		AEE2226A1AE9C54F00136374 /* FPRViewScrollPaged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPRViewScrollPaged.m; sourceTree = "<group>"; };
+		AEE2226D1AE9C59100136374 /* FPRXibScrollPaged.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FPRXibScrollPaged.xib; sourceTree = "<group>"; };
+		AEF591751AEAD55A00D7C70A /* FPRData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FPRData.plist; sourceTree = "<group>"; };
+		AEF591771AEAD97700D7C70A /* FPRData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPRData.h; sourceTree = "<group>"; };
+		AEF591781AEAD97700D7C70A /* FPRData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPRData.m; sourceTree = "<group>"; };
+		AEF5917B1AEB541500D7C70A /* mercurialMovie.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = mercurialMovie.mov; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEE222251AE9984A00136374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE222591AE9B56800136374 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE2223A1AE9984A00136374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEE2221F1AE9984A00136374 = {
+			isa = PBXGroup;
+			children = (
+				AEE222581AE9B56800136374 /* MapKit.framework */,
+				AEE2222A1AE9984A00136374 /* FelipeRios */,
+				AEE222401AE9984A00136374 /* FelipeRiosTests */,
+				AEE222291AE9984A00136374 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEE222291AE9984A00136374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEE222281AE9984A00136374 /* FelipeRios.app */,
+				AEE2223D1AE9984A00136374 /* FelipeRiosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEE2222A1AE9984A00136374 /* FelipeRios */ = {
+			isa = PBXGroup;
+			children = (
+				AEF5917A1AEB243100D7C70A /* Storyboard */,
+				AEE2222F1AE9984A00136374 /* ViewController.swift */,
+				AEE222611AE9BCE200136374 /* Model */,
+				AEE222681AE9C53A00136374 /* Views */,
+				AEE222671AE9C52B00136374 /* Controllers */,
+				AEE2222B1AE9984A00136374 /* Supporting Files */,
+			);
+			path = FelipeRios;
+			sourceTree = "<group>";
+		};
+		AEE2222B1AE9984A00136374 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEF5917B1AEB541500D7C70A /* mercurialMovie.mov */,
+				AEE222361AE9984A00136374 /* LaunchScreen.xib */,
+				AEE222341AE9984A00136374 /* Images.xcassets */,
+				AEE2222D1AE9984A00136374 /* AppDelegate.swift */,
+				AEE2224D1AE99E4300136374 /* FelipeRios-Bridging-Header.h */,
+				AEE222511AE9AEFE00136374 /* UIView+FPRView.h */,
+				AEE222521AE9AEFE00136374 /* UIView+FPRView.m */,
+				AEE2222C1AE9984A00136374 /* Info.plist */,
+				AEF591751AEAD55A00D7C70A /* FPRData.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEE222401AE9984A00136374 /* FelipeRiosTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEE222431AE9984A00136374 /* FelipeRiosTests.swift */,
+				AEE222411AE9984A00136374 /* Supporting Files */,
+			);
+			path = FelipeRiosTests;
+			sourceTree = "<group>";
+		};
+		AEE222411AE9984A00136374 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEE222421AE9984A00136374 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEE222571AE9B21100136374 /* FPRGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				AEE222541AE9B20B00136374 /* FPRGradientView.h */,
+				AEE222551AE9B20B00136374 /* FPRGradientView.m */,
+			);
+			name = FPRGradientView;
+			sourceTree = "<group>";
+		};
+		AEE2225D1AE9B5AD00136374 /* FPRImageView */ = {
+			isa = PBXGroup;
+			children = (
+				AEE2225A1AE9B5A500136374 /* FPRImageView.h */,
+				AEE2225B1AE9B5A500136374 /* FPRImageView.m */,
+			);
+			name = FPRImageView;
+			sourceTree = "<group>";
+		};
+		AEE222611AE9BCE200136374 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEE222651AE9C01400136374 /* FPRUtils */,
+				AEE2225E1AE9BCDC00136374 /* FPRContent.h */,
+				AEE2225F1AE9BCDC00136374 /* FPRContent.m */,
+				AE4ED6FE1AEA124B009429F3 /* FPRAnnotation.h */,
+				AE4ED6FF1AEA124B009429F3 /* FPRAnnotation.m */,
+				AEF591771AEAD97700D7C70A /* FPRData.h */,
+				AEF591781AEAD97700D7C70A /* FPRData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AEE222651AE9C01400136374 /* FPRUtils */ = {
+			isa = PBXGroup;
+			children = (
+				AEE222621AE9C00F00136374 /* FPRUtils.h */,
+				AEE222631AE9C01000136374 /* FPRUtils.m */,
+			);
+			name = FPRUtils;
+			sourceTree = "<group>";
+		};
+		AEE222671AE9C52B00136374 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE4ED7021AEA1594009429F3 /* FPRPictureViewController.swift */,
+				AEE2224E1AE99E4300136374 /* FPRMainViewController.h */,
+				AEE2224F1AE99E4300136374 /* FPRMainViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AEE222681AE9C53A00136374 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE4ED7031AEA1594009429F3 /* FPRTiltView.swift */,
+				AE4ED7011AEA1594009429F3 /* FPRIndicator.swift */,
+				AEE222571AE9B21100136374 /* FPRGradientView */,
+				AEE2225D1AE9B5AD00136374 /* FPRImageView */,
+				AEE2226C1AE9C55600136374 /* FPRViewScrollPaged */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		AEE2226C1AE9C55600136374 /* FPRViewScrollPaged */ = {
+			isa = PBXGroup;
+			children = (
+				AEE222691AE9C54F00136374 /* FPRViewScrollPaged.h */,
+				AEE2226A1AE9C54F00136374 /* FPRViewScrollPaged.m */,
+				AEE2226D1AE9C59100136374 /* FPRXibScrollPaged.xib */,
+			);
+			name = FPRViewScrollPaged;
+			sourceTree = "<group>";
+		};
+		AEF5917A1AEB243100D7C70A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AEE222311AE9984A00136374 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEE222271AE9984A00136374 /* FelipeRios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEE222471AE9984A00136374 /* Build configuration list for PBXNativeTarget "FelipeRios" */;
+			buildPhases = (
+				AEE222241AE9984A00136374 /* Sources */,
+				AEE222251AE9984A00136374 /* Frameworks */,
+				AEE222261AE9984A00136374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FelipeRios;
+			productName = FelipeRios;
+			productReference = AEE222281AE9984A00136374 /* FelipeRios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEE2223C1AE9984A00136374 /* FelipeRiosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEE2224A1AE9984A00136374 /* Build configuration list for PBXNativeTarget "FelipeRiosTests" */;
+			buildPhases = (
+				AEE222391AE9984A00136374 /* Sources */,
+				AEE2223A1AE9984A00136374 /* Frameworks */,
+				AEE2223B1AE9984A00136374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEE2223F1AE9984A00136374 /* PBXTargetDependency */,
+			);
+			name = FelipeRiosTests;
+			productName = FelipeRiosTests;
+			productReference = AEE2223D1AE9984A00136374 /* FelipeRiosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEE222201AE9984A00136374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Felipe Polidori Rios";
+				TargetAttributes = {
+					AEE222271AE9984A00136374 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = J7Q4VXFQTF;
+					};
+					AEE2223C1AE9984A00136374 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = AEE222271AE9984A00136374;
+					};
+				};
+			};
+			buildConfigurationList = AEE222231AE9984A00136374 /* Build configuration list for PBXProject "FelipeRios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEE2221F1AE9984A00136374;
+			productRefGroup = AEE222291AE9984A00136374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEE222271AE9984A00136374 /* FelipeRios */,
+				AEE2223C1AE9984A00136374 /* FelipeRiosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEE222261AE9984A00136374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF5917C1AEB541500D7C70A /* mercurialMovie.mov in Resources */,
+				AEE222331AE9984A00136374 /* Main.storyboard in Resources */,
+				AEF591761AEAD55A00D7C70A /* FPRData.plist in Resources */,
+				AEE2226E1AE9C59100136374 /* FPRXibScrollPaged.xib in Resources */,
+				AEE222381AE9984A00136374 /* LaunchScreen.xib in Resources */,
+				AEE222351AE9984A00136374 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE2223B1AE9984A00136374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEE222241AE9984A00136374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4ED7051AEA1594009429F3 /* FPRPictureViewController.swift in Sources */,
+				AEE222501AE99E4300136374 /* FPRMainViewController.m in Sources */,
+				AEE222601AE9BCDC00136374 /* FPRContent.m in Sources */,
+				AE4ED7041AEA1594009429F3 /* FPRIndicator.swift in Sources */,
+				AEE2225C1AE9B5A500136374 /* FPRImageView.m in Sources */,
+				AEE222561AE9B20B00136374 /* FPRGradientView.m in Sources */,
+				AEE222301AE9984A00136374 /* ViewController.swift in Sources */,
+				AE4ED7001AEA124B009429F3 /* FPRAnnotation.m in Sources */,
+				AEE222531AE9AEFE00136374 /* UIView+FPRView.m in Sources */,
+				AEE222641AE9C01000136374 /* FPRUtils.m in Sources */,
+				AEF591791AEAD97700D7C70A /* FPRData.m in Sources */,
+				AEE2222E1AE9984A00136374 /* AppDelegate.swift in Sources */,
+				AEE2226B1AE9C54F00136374 /* FPRViewScrollPaged.m in Sources */,
+				AE4ED7061AEA1594009429F3 /* FPRTiltView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE222391AE9984A00136374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE222441AE9984A00136374 /* FelipeRiosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEE2223F1AE9984A00136374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEE222271AE9984A00136374 /* FelipeRios */;
+			targetProxy = AEE2223E1AE9984A00136374 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEE222311AE9984A00136374 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEE222321AE9984A00136374 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEE222361AE9984A00136374 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEE222371AE9984A00136374 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEE222451AE9984A00136374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEE222461AE9984A00136374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEE222481AE9984A00136374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FelipeRios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FelipeRios/FelipeRios-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AEE222491AE9984A00136374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FelipeRios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FelipeRios/FelipeRios-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AEE2224B1AE9984A00136374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FelipeRiosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FelipeRios.app/FelipeRios";
+			};
+			name = Debug;
+		};
+		AEE2224C1AE9984A00136374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FelipeRiosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FelipeRios.app/FelipeRios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEE222231AE9984A00136374 /* Build configuration list for PBXProject "FelipeRios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE222451AE9984A00136374 /* Debug */,
+				AEE222461AE9984A00136374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEE222471AE9984A00136374 /* Build configuration list for PBXNativeTarget "FelipeRios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE222481AE9984A00136374 /* Debug */,
+				AEE222491AE9984A00136374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEE2224A1AE9984A00136374 /* Build configuration list for PBXNativeTarget "FelipeRiosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE2224B1AE9984A00136374 /* Debug */,
+				AEE2224C1AE9984A00136374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEE222201AE9984A00136374 /* Project object */;
+}
