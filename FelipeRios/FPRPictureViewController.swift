@@ -37,21 +37,21 @@ let BUTTON_DONE_DISTANCE_FROM_SCREEN:CGFloat = 20.0
     }
     
     private func addButtonDone(){
-        self.buttonDone = UIButton.buttonWithType(UIButtonType.Custom) as! UIButton
+        self.buttonDone = UIButton(type: UIButtonType.Custom)
         self.buttonDone.frame = CGRectMake(self.view.frame.size.width - BUTTON_DONE_WIDTH - BUTTON_DONE_DISTANCE_FROM_SCREEN, BUTTON_DONE_DISTANCE_FROM_SCREEN, BUTTON_DONE_WIDTH, 40.0)
         self.buttonDone.setTitle("Done", forState: UIControlState.Normal)
         self.buttonDone.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
         self.buttonDone.contentVerticalAlignment=UIControlContentVerticalAlignment.Top
         self.buttonDone.contentHorizontalAlignment=UIControlContentHorizontalAlignment.Right
-        self.buttonDone.addTarget(self, action: "buttonDoneClicked", forControlEvents: UIControlEvents.TouchUpInside)
+        self.buttonDone.addTarget(self, action: #selector(FPRPictureViewController.buttonDoneClicked), forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(self.buttonDone)
         self.view.bringSubviewToFront(self.buttonDone)
     }
     
     
     //disable landscape mode
-    override public func supportedInterfaceOrientations() -> Int {
-        return UIInterfaceOrientation.Portrait.rawValue
+    override public func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.Portrait
     }
     
     public override func shouldAutorotate() -> Bool {

@@ -34,7 +34,7 @@ class TiltView: UIView {
         self.commonInit()
     }
     
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         fatalError("error 238hdib4c")
     }
     
@@ -49,7 +49,7 @@ class TiltView: UIView {
         self.addSubview(self.scrollView)
         
         self.imageView = UIImageView(frame: self.viewFrame)
-        self.imageView.autoresizingMask = .FlexibleWidth | .FlexibleHeight
+        self.imageView.autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
         self.imageView.backgroundColor = UIColor.blackColor()
         self.imageView.contentMode = UIViewContentMode.ScaleAspectFit
         self.scrollView.addSubview(self.imageView)
@@ -106,14 +106,12 @@ class TiltView: UIView {
         
         self.motionManager.gyroUpdateInterval = CRMotionGyroUpdateInterval
         if !self.motionManager.gyroActive && self.motionManager.gyroAvailable{
-            
-            self.motionManager.startGyroUpdatesToQueue(NSOperationQueue.currentQueue(), withHandler: { (gyroData:CMGyroData!, error:NSError!) -> Void in
-                
-                self.rotateAccordingToDeviceMotionRotationRate(gyroData)
+            self.motionManager.startGyroUpdatesToQueue(NSOperationQueue.currentQueue()!, withHandler: { (gyroData, error) in
+                self.rotateAccordingToDeviceMotionRotationRate(gyroData!)
             })
         }
         else{
-            println("There is no gyroscope. Error sa78hd3")
+            print("There is no gyroscope. Error sa78hd3")
         }
     }
     
@@ -133,7 +131,7 @@ class TiltView: UIView {
                 offsetX = self.minimumXOffset
             }
 
-            UIView.animateWithDuration(0.3, delay: 0.0, options: .BeginFromCurrentState | .AllowUserInteraction | .CurveEaseOut, animations: { () -> Void in
+            UIView.animateWithDuration(0.3, delay: 0.0, options: [.BeginFromCurrentState, .AllowUserInteraction, .CurveEaseOut], animations: { () -> Void in
                 self.scrollView.setContentOffset(CGPointMake(offsetX, 0), animated: false)
                 }, completion: nil)
         }

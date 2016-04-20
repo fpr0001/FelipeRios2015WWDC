@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4156DF942A8C4B5AD4F02F20B6FD6E8ECF655D70",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4156DF942A8C4B5AD4F02F20B6FD6E8ECF655D70" : 0,
+    "3CB7F866300E2AE92989E8518E78872C3F9C5C93" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "60ACEA75-B246-4BFD-95AE-FCDFE26CE59C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4156DF942A8C4B5AD4F02F20B6FD6E8ECF655D70" : "FelipeRios2015WWDC\/",
+    "3CB7F866300E2AE92989E8518E78872C3F9C5C93" : "FelipeRiosWWDC2015"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FelipeRios",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FelipeRios.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fpr0001\/FelipeRiosWWDC2015.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3CB7F866300E2AE92989E8518E78872C3F9C5C93"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fpr0001\/FelipeRios2015WWDC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4156DF942A8C4B5AD4F02F20B6FD6E8ECF655D70"
+    }
+  ]
+}
