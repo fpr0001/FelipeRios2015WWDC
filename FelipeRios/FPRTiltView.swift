@@ -11,26 +11,50 @@
 
 import UIKit
 import CoreMotion
+// FIXME: comparison operators with optionals were removed from the Swift Standard Libary.
+// Consider refactoring the code to use the non-optional operators.
+fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
+  switch (lhs, rhs) {
+  case let (l?, r?):
+    return l < r
+  case (nil, _?):
+    return true
+  default:
+    return false
+  }
+}
+
+// FIXME: comparison operators with optionals were removed from the Swift Standard Libary.
+// Consider refactoring the code to use the non-optional operators.
+fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
+  switch (lhs, rhs) {
+  case let (l?, r?):
+    return l > r
+  default:
+    return rhs < lhs
+  }
+}
+
 
 class TiltView: UIView {
     
     let CRMotionViewRotationMinimumThreshold:CGFloat = 0.1
-    let CRMotionGyroUpdateInterval:NSTimeInterval = 1 / 100
+    let CRMotionGyroUpdateInterval:TimeInterval = 1 / 100
     let CRMotionViewRotationFactor:CGFloat = 4.0
-    private var motionManager: CMMotionManager = CMMotionManager()
-    private var motionEnabled: Bool = true
-    private var scrollIndicatorEnabled: Bool = true
-    private var viewFrame: CGRect!
-    private var scrollView: UIScrollView!
-    private var imageView: UIImageView!
-    private var motionRate:CGFloat!
-    private var minimumXOffset:CGFloat!
-    private var maximumXOffset:CGFloat!
-    private var image: UIImage!
+    fileprivate var motionManager: CMMotionManager = CMMotionManager()
+    fileprivate var motionEnabled: Bool = true
+    fileprivate var scrollIndicatorEnabled: Bool = true
+    fileprivate var viewFrame: CGRect!
+    fileprivate var scrollView: UIScrollView!
+    fileprivate var imageView: UIImageView!
+    fileprivate var motionRate:CGFloat!
+    fileprivate var minimumXOffset:CGFloat!
+    fileprivate var maximumXOffset:CGFloat!
+    fileprivate var image: UIImage!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        viewFrame = CGRectMake(0.0, 0.0, CGRectGetWidth(frame), CGRectGetHeight(frame))
+        viewFrame = CGRect(x: 0.0, y: 0.0, width: frame.width, height: frame.height)
         self.commonInit()
     }
     
@@ -43,15 +67,15 @@ class TiltView: UIView {
         
         //configuring scroll view
         self.scrollView = UIScrollView(frame: self.viewFrame)
-        self.scrollView.userInteractionEnabled = false
+        self.scrollView.isUserInteractionEnabled = false
         self.scrollView.alwaysBounceVertical = false
-        self.scrollView.contentSize = CGSizeZero
+        self.scrollView.contentSize = CGSize.zero
         self.addSubview(self.scrollView)
         
         self.imageView = UIImageView(frame: self.viewFrame)
-        self.imageView.autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
-        self.imageView.backgroundColor = UIColor.blackColor()
-        self.imageView.contentMode = UIViewContentMode.ScaleAspectFit
+        self.imageView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        self.imageView.backgroundColor = UIColor.black
+        self.imageView.contentMode = UIViewContentMode.scaleAspectFit
         self.scrollView.addSubview(self.imageView)
         
         self.minimumXOffset = 0
@@ -60,24 +84,24 @@ class TiltView: UIView {
         
     }
     
-    func setImage(image:UIImage){
+    func setImage(_ image:UIImage){
         
         self.image = image
         
         let width = self.viewFrame.size.height / self.image.size.height * self.image.size.width
-        self.imageView.frame = CGRectMake(0, 0, width, self.viewFrame.height)
-        self.imageView.backgroundColor = UIColor.blueColor()
+        self.imageView.frame = CGRect(x: 0, y: 0, width: width, height: self.viewFrame.height)
+        self.imageView.backgroundColor = UIColor.blue
         self.imageView.image = self.image
         
-        self.scrollView.contentSize = CGSizeMake(self.imageView.frame.size.width, self.scrollView.frame.size.height)
-        self.scrollView.contentOffset = CGPointMake((self.scrollView.contentSize.width - self.scrollView.frame.size.width) / 2, 0)
+        self.scrollView.contentSize = CGSize(width: self.imageView.frame.size.width, height: self.scrollView.frame.size.height)
+        self.scrollView.contentOffset = CGPoint(x: (self.scrollView.contentSize.width - self.scrollView.frame.size.width) / 2, y: 0)
         
         self.scrollView.enablePanoramaIndicator()
         self.motionRate = self.image.size.width / self.viewFrame.size.width * CRMotionViewRotationFactor
         self.maximumXOffset = self.scrollView.contentSize.width - self.scrollView.frame.size.width
     }
     
-    func setMotionEnabled(motionEnabled:Bool){
+    func setMotionEnabled(_ motionEnabled:Bool){
         
         self.motionEnabled = motionEnabled
         if self.motionEnabled{
@@ -90,7 +114,7 @@ class TiltView: UIView {
         }
     }
     
-    func setScrollIndicatorEnabled(scrollIndicatorEnabled:Bool){
+    func setScrollIndicatorEnabled(_ scrollIndicatorEnabled:Bool){
         
         self.scrollIndicatorEnabled = scrollIndicatorEnabled
         if self.scrollIndicatorEnabled{
@@ -105,8 +129,8 @@ class TiltView: UIView {
     func startMonitoring(){
         
         self.motionManager.gyroUpdateInterval = CRMotionGyroUpdateInterval
-        if !self.motionManager.gyroActive && self.motionManager.gyroAvailable{
-            self.motionManager.startGyroUpdatesToQueue(NSOperationQueue.currentQueue()!, withHandler: { (gyroData, error) in
+        if !self.motionManager.isGyroActive && self.motionManager.isGyroAvailable{
+            self.motionManager.startGyroUpdates(to: OperationQueue.current!, withHandler: { (gyroData, error) in
                 self.rotateAccordingToDeviceMotionRotationRate(gyroData!)
             })
         }
@@ -116,7 +140,7 @@ class TiltView: UIView {
     }
     
 
-    func rotateAccordingToDeviceMotionRotationRate(gyroData:CMGyroData){
+    func rotateAccordingToDeviceMotionRotationRate(_ gyroData:CMGyroData){
 
         let rotationRate = CGFloat(gyroData.rotationRate.y)
         if abs(rotationRate) >= CRMotionViewRotationMinimumThreshold{
@@ -131,8 +155,8 @@ class TiltView: UIView {
                 offsetX = self.minimumXOffset
             }
 
-            UIView.animateWithDuration(0.3, delay: 0.0, options: [.BeginFromCurrentState, .AllowUserInteraction, .CurveEaseOut], animations: { () -> Void in
-                self.scrollView.setContentOffset(CGPointMake(offsetX, 0), animated: false)
+            UIView.animate(withDuration: 0.3, delay: 0.0, options: [.beginFromCurrentState, .allowUserInteraction, .curveEaseOut], animations: { () -> Void in
+                self.scrollView.setContentOffset(CGPoint(x: offsetX, y: 0), animated: false)
                 }, completion: nil)
         }
     }
