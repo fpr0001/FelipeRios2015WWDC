@@ -29,7 +29,7 @@ let BUTTON_DONE_DISTANCE_FROM_SCREEN:CGFloat = 20.0
         self.addButtonDone()
     }
     
-    func buttonDoneClicked(){
+    @objc func buttonDoneClicked(){
         self.motionView.setScrollIndicatorEnabled(false)
         self.dismiss(animated: true, completion: {
             UIApplication.shared.setStatusBarHidden(false, with: UIStatusBarAnimation.slide)
@@ -37,15 +37,15 @@ let BUTTON_DONE_DISTANCE_FROM_SCREEN:CGFloat = 20.0
     }
     
     fileprivate func addButtonDone(){
-        self.buttonDone = UIButton(type: UIButtonType.custom)
+        self.buttonDone = UIButton(type: UIButton.ButtonType.custom)
         self.buttonDone.frame = CGRect(x: self.view.frame.size.width - BUTTON_DONE_WIDTH - BUTTON_DONE_DISTANCE_FROM_SCREEN, y: BUTTON_DONE_DISTANCE_FROM_SCREEN, width: BUTTON_DONE_WIDTH, height: 40.0)
-        self.buttonDone.setTitle("Done", for: UIControlState())
-        self.buttonDone.setTitleColor(UIColor.white, for: UIControlState())
-        self.buttonDone.contentVerticalAlignment=UIControlContentVerticalAlignment.top
-        self.buttonDone.contentHorizontalAlignment=UIControlContentHorizontalAlignment.right
-        self.buttonDone.addTarget(self, action: #selector(FPRPictureViewController.buttonDoneClicked), for: UIControlEvents.touchUpInside)
+        self.buttonDone.setTitle("Done", for: UIControl.State())
+        self.buttonDone.setTitleColor(UIColor.white, for: UIControl.State())
+        self.buttonDone.contentVerticalAlignment=UIControl.ContentVerticalAlignment.top
+        self.buttonDone.contentHorizontalAlignment=UIControl.ContentHorizontalAlignment.right
+        self.buttonDone.addTarget(self, action: #selector(FPRPictureViewController.buttonDoneClicked), for: UIControl.Event.touchUpInside)
         self.view.addSubview(self.buttonDone)
-        self.view.bringSubview(toFront: self.buttonDone)
+        self.view.bringSubviewToFront(self.buttonDone)
     }
     
     

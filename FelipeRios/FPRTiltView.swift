@@ -75,7 +75,7 @@ class TiltView: UIView {
         self.imageView = UIImageView(frame: self.viewFrame)
         self.imageView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         self.imageView.backgroundColor = UIColor.black
-        self.imageView.contentMode = UIViewContentMode.scaleAspectFit
+        self.imageView.contentMode = UIView.ContentMode.scaleAspectFit
         self.scrollView.addSubview(self.imageView)
         
         self.minimumXOffset = 0
