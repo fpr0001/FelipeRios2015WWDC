@@ -6,3 +6,7 @@ App that won the scholarship to attend the 2015 WWDC
 
 ![Simulator Screen Shot - iPhone X - 2019-05-27 at 20 25 15](https://user-images.githubusercontent.com/6198387/58442474-f214be80-80c1-11e9-85b3-3489f32a17f2.png)
 ![Simulator Screen Shot - iPhone X - 2019-05-27 at 20 24 38](https://user-images.githubusercontent.com/6198387/58442446-c42f7a00-80c1-11e9-89e9-c07b3f4240e7.png)
+
+# License
+
+[The MIT License (MIT)](https://github.com/fpr0001/FelipeRios2015WWDC/blob/master/LICENSE)
