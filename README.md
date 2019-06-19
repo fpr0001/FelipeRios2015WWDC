@@ -10,3 +10,7 @@ App that won the scholarship to attend the 2015 WWDC
 # License
 
 [The MIT License (MIT)](https://github.com/fpr0001/FelipeRios2015WWDC/blob/master/LICENSE)
+
+# Donations
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5Y925X6AEUYNJ)
