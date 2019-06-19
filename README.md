@@ -1,4 +1,6 @@
 # FelipeRios2015WWDC
+[![codebeat badge](https://codebeat.co/badges/d5854a74-bd84-405f-a6e9-f70dbe57a8af)](https://codebeat.co/projects/github-com-fpr0001-feliperios2015wwdc-master)
+
 App that won the scholarship to attend the 2015 WWDC
 
 ![Simulator Screen Shot - iPhone X - 2019-05-27 at 20 58 43](https://user-images.githubusercontent.com/6198387/58442558-90088900-80c2-11e9-827f-bc03cf958370.png)
